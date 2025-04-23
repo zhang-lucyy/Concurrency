@@ -1,0 +1,143 @@
+1. java activity_5.Driver 2 0 0 0
+Philosopher 1 thinks for 0 time units
+Philosopher 0 thinks for 0 time units
+Philosopher 1 goes for right fork
+Philosopher 0 goes for right fork
+Philosopher 1 has right fork
+Philosopher 0 has right fork
+Philosopher (both left handed and right handed) 1 goes for left fork
+Philosopher (both left handed and right handed) 0 goes for left fork
+*DEADLOCK*
+
+2. java activity_5/Driver -l 4 2 300 500
+Philosopher 2 thinks for 229 time units
+Philosopher 1 thinks for 297 time units
+Philosopher 0 thinks for 155 time units
+Philosopher 3 thinks for 128 time units
+Philosopher (both left handed and right handed) 3 goes for left fork
+Philosopher 3 has left fork
+Philosopher 3 goes for right fork
+Philosopher 3 has right fork
+Philosopher 3 eats for 232 time units
+Philosopher 0 goes for right fork
+Philosopher 0 has right fork
+Philosopher (both left handed and right handed) 0 goes for left fork
+Philosopher 2 goes for right fork
+Philosopher (both left handed and right handed) 1 goes for left fork
+Philosopher 0 has left fork
+Philosopher 0 eats for 191 time units
+Philosopher 3 releases right fork
+Philosopher 2 has right fork
+Philosopher 3 releases left fork
+Philosopher (both left handed and right handed) 2 goes for left fork
+Philosopher 3 thinks for 272 time units
+Philosopher 2 has left fork
+Philosopher 2 eats for 251 time units
+Philosopher 1 has left fork
+Philosopher 0 releases right fork
+Philosopher 0 releases left fork
+Philosopher 1 goes for right fork
+Philosopher 0 thinks for 73 time units
+Philosopher 2 releases right fork
+Philosopher 2 releases left fork
+Philosopher 1 has right fork
+Philosopher 2 thinks for 37 time units
+Philosopher 1 eats for 378 time units
+Philosopher 0 goes for right fork
+Philosopher (both left handed and right handed) 3 goes for left fork
+Philosopher 3 has left fork
+Philosopher 3 goes for right fork
+Philosopher 3 has right fork
+Philosopher 3 eats for 418 time units
+Philosopher 2 goes for right fork
+Philosopher 1 releases right fork
+Philosopher 0 has right fork
+Philosopher 1 releases left fork
+Philosopher (both left handed and right handed) 0 goes for left fork
+Philosopher 1 thinks for 235 time units
+Philosopher 0 has left fork
+Philosopher 3 releases right fork
+Philosopher 0 eats for 467 time units
+Philosopher 2 has right fork
+Philosopher 3 releases left fork
+Philosopher (both left handed and right handed) 2 goes for left fork
+Philosopher 2 has left fork
+Philosopher 2 eats for 271 time units
+Philosopher (both left handed and right handed) 1 goes for left fork
+Philosopher 2 releases right fork
+Philosopher 2 releases left fork
+Philosopher 1 has left fork
+Philosopher 0 releases right fork
+Philosopher 0 releases left fork
+Philosopher 1 goes for right fork
+Philosopher 1 has right fork
+Philosopher 1 eats for 294 time units
+Philosopher 1 releases right fork
+Philosopher 1 releases left fork
+*Since there's both left and right handed philosophers no deadlock! Every philosopher eats and releases their forks*
+
+3. java activity_5/Driver -l 3 2 100 200
+Philosopher 1 thinks for 47 time units
+Philosopher 0 thinks for 92 time units
+Philosopher 2 thinks for 57 time units
+Philosopher (both left handed and right handed) 1 goes for left fork
+Philosopher 1 has left fork
+Philosopher 1 goes for right fork
+Philosopher 1 has right fork
+Philosopher 1 eats for 167 time units
+Philosopher 2 goes for right fork
+Philosopher 2 has right fork
+Philosopher (both left handed and right handed) 2 goes for left fork
+Philosopher 0 goes for right fork
+Philosopher 2 has left fork
+Philosopher 1 releases right fork
+Philosopher 2 eats for 98 time units
+Philosopher 0 has right fork
+Philosopher 1 releases left fork
+Philosopher (both left handed and right handed) 0 goes for left fork
+Philosopher 1 thinks for 19 time units
+Philosopher (both left handed and right handed) 1 goes for left fork
+Philosopher 2 releases right fork
+Philosopher 0 has left fork
+Philosopher 2 releases left fork
+Philosopher 0 eats for 185 time units
+Philosopher 2 thinks for 69 time units
+Philosopher 2 goes for right fork
+Philosopher 0 releases right fork
+Philosopher 1 has left fork
+Philosopher 2 has right fork
+Philosopher 0 releases left fork
+Philosopher 1 goes for right fork
+Philosopher (both left handed and right handed) 2 goes for left fork
+Philosopher 0 thinks for 67 time units
+Philosopher 1 has right fork
+Philosopher 1 eats for 190 time units
+Philosopher 0 goes for right fork
+Philosopher 2 has left fork
+Philosopher 1 releases right fork
+Philosopher 2 eats for 95 time units
+Philosopher 0 has right fork
+Philosopher 1 releases left fork
+Philosopher (both left handed and right handed) 0 goes for left fork
+Philosopher 2 releases right fork
+Philosopher 0 has left fork
+Philosopher 2 releases left fork
+Philosopher 0 eats for 121 time units
+Philosopher 0 releases right fork
+Philosopher 0 releases left fork
+*Odd number philosophers? No deadlock!*
+
+4. java activity_5/Driver 3 4 0 0
+Philosopher 1 thinks for 0 time units
+Philosopher 0 thinks for 0 time units
+Philosopher 2 thinks for 0 time units
+Philosopher 2 goes for right fork
+Philosopher 0 goes for right fork
+Philosopher 1 goes for right fork
+Philosopher 0 has right fork
+Philosopher 2 has right fork
+Philosopher 1 has right fork
+Philosopher (both left handed and right handed) 2 goes for left fork
+Philosopher (both left handed and right handed) 0 goes for left fork
+Philosopher (both left handed and right handed) 1 goes for left fork
+*Deadlock*
